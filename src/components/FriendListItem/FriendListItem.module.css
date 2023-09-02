@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  width: 200px;
+  margin: 0 auto 10px;
+  padding: 10px 0 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.status.isOnline {
+  background-color: green;
+}
+
+.status.isOffline {
+  background-color: red;
+}
